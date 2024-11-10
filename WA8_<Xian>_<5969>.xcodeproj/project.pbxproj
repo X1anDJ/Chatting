@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D7552492CE04AF000C92B0D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7552482CE04AF000C92B0D /* LoginView.swift */; };
+		9D75524B2CE04B0E00C92B0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D75524A2CE04B0E00C92B0D /* LoginViewController.swift */; };
+		9D75524D2CE053DF00C92B0D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D75524C2CE053DF00C92B0D /* HomeView.swift */; };
+		9D75524F2CE0540300C92B0D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D75524E2CE0540300C92B0D /* HomeViewController.swift */; };
+		9DCAFCF02CE03F5F00ED3389 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCAFCEF2CE03F5F00ED3389 /* RegisterView.swift */; };
+		9DCAFCF22CE03F7B00ED3389 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCAFCF12CE03F7B00ED3389 /* RegisterViewController.swift */; };
 		DC2206A82CE01C50004AE463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC22069E2CE01C50004AE463 /* AppDelegate.swift */; };
 		DC2206AA2CE01C50004AE463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2206A62CE01C50004AE463 /* ViewController.swift */; };
 		DC2206AB2CE01C50004AE463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC22069F2CE01C50004AE463 /* Assets.xcassets */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D7552482CE04AF000C92B0D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9D75524A2CE04B0E00C92B0D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9D75524C2CE053DF00C92B0D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9D75524E2CE0540300C92B0D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9DCAFCEF2CE03F5F00ED3389 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		9DCAFCF12CE03F7B00ED3389 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		DC2206862CE01C48004AE463 /* WA8_<Xian>_<5969>.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WA8_<Xian>_<5969>.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC22069E2CE01C50004AE463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC22069F2CE01C50004AE463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +78,12 @@
 				DC2206A22CE01C50004AE463 /* LaunchScreen.storyboard */,
 				DC2206A62CE01C50004AE463 /* ViewController.swift */,
 				DC2206AF2CE0225C004AE463 /* GoogleService-Info.plist */,
+				9DCAFCEF2CE03F5F00ED3389 /* RegisterView.swift */,
+				9DCAFCF12CE03F7B00ED3389 /* RegisterViewController.swift */,
+				9D7552482CE04AF000C92B0D /* LoginView.swift */,
+				9D75524A2CE04B0E00C92B0D /* LoginViewController.swift */,
+				9D75524C2CE053DF00C92B0D /* HomeView.swift */,
+				9D75524E2CE0540300C92B0D /* HomeViewController.swift */,
 			);
 			path = "WA8_<Xian>_<5969>";
 			sourceTree = "<group>";
@@ -150,8 +168,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D75524B2CE04B0E00C92B0D /* LoginViewController.swift in Sources */,
+				9D75524D2CE053DF00C92B0D /* HomeView.swift in Sources */,
+				9DCAFCF02CE03F5F00ED3389 /* RegisterView.swift in Sources */,
+				9D75524F2CE0540300C92B0D /* HomeViewController.swift in Sources */,
 				DC2206A82CE01C50004AE463 /* AppDelegate.swift in Sources */,
 				DC2206AA2CE01C50004AE463 /* ViewController.swift in Sources */,
+				9D7552492CE04AF000C92B0D /* LoginView.swift in Sources */,
+				9DCAFCF22CE03F7B00ED3389 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +207,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -210,6 +235,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -275,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -332,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
