@@ -19,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                      [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
         
+        // 调用测试函数
+        TestFunctions.createMockUsers()
+        TestFunctions.insertMockChatData()
+        
         let navController = UINavigationController(rootViewController: LoginViewController())
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = navController

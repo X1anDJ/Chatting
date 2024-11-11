@@ -3,7 +3,6 @@
 //
 // Created by 刘逸飞 on 2024/11/9.
 
-import Foundation
 import UIKit
 import FirebaseAuth
 import FirebaseFirestore
@@ -19,8 +18,12 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        homeView.logoutButton.addTarget(self, action: #selector(logoutTapped), for: .touchUpInside)
 
+        // Bind buttons to their actions
+        homeView.logoutButton.addTarget(self, action: #selector(logoutTapped), for: .touchUpInside)
+        homeView.testButton.addTarget(self, action: #selector(testButtonTapped), for: .touchUpInside)
+
+        // TableView setup
         homeView.tableView.dataSource = self
         homeView.tableView.delegate = self
 
@@ -30,12 +33,12 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     func fetchUsers() {
         let db = Firestore.firestore()
-        db.collection("users").getDocuments { (querySnapshot, error) in
+        db.collection("users").getDocuments { (snapshot, error) in
             if let error = error {
-                print("Error getting documents: \(error.localizedDescription)")
+                print("Error fetching users: \(error.localizedDescription)")
             } else {
                 var usersList: [String] = []
-                for document in querySnapshot!.documents {
+                for document in snapshot!.documents {
                     if let email = document.data()["email"] as? String {
                         usersList.append(email)
                     }
@@ -62,6 +65,12 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
             print("Error details: \(signOutError.localizedDescription)")
             showAlert(message: "Logout failed: \(signOutError.localizedDescription)")
         }
+    }
+
+    // 测试按钮点击事件
+    @objc func testButtonTapped() {
+        TestFunctions.testFetchUsers() // 调用测试函数
+        TestFunctions.testFetchChats()
     }
 
     func showAlert(message: String, completion: (() -> Void)? = nil) {

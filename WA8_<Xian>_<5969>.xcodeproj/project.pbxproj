@@ -11,6 +11,7 @@
 		9D75524B2CE04B0E00C92B0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D75524A2CE04B0E00C92B0D /* LoginViewController.swift */; };
 		9D75524D2CE053DF00C92B0D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D75524C2CE053DF00C92B0D /* HomeView.swift */; };
 		9D75524F2CE0540300C92B0D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D75524E2CE0540300C92B0D /* HomeViewController.swift */; };
+		9D7552512CE1B46F00C92B0D /* TestFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7552502CE1B46F00C92B0D /* TestFunctions.swift */; };
 		9DCAFCF02CE03F5F00ED3389 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCAFCEF2CE03F5F00ED3389 /* RegisterView.swift */; };
 		9DCAFCF22CE03F7B00ED3389 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCAFCF12CE03F7B00ED3389 /* RegisterViewController.swift */; };
 		DC2206A82CE01C50004AE463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC22069E2CE01C50004AE463 /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 		9D75524A2CE04B0E00C92B0D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9D75524C2CE053DF00C92B0D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9D75524E2CE0540300C92B0D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9D7552502CE1B46F00C92B0D /* TestFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFunctions.swift; sourceTree = "<group>"; };
 		9DCAFCEF2CE03F5F00ED3389 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		9DCAFCF12CE03F7B00ED3389 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		DC2206862CE01C48004AE463 /* WA8_<Xian>_<5969>.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WA8_<Xian>_<5969>.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 				9D75524A2CE04B0E00C92B0D /* LoginViewController.swift */,
 				9D75524C2CE053DF00C92B0D /* HomeView.swift */,
 				9D75524E2CE0540300C92B0D /* HomeViewController.swift */,
+				9D7552502CE1B46F00C92B0D /* TestFunctions.swift */,
 			);
 			path = "WA8_<Xian>_<5969>";
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				9D75524D2CE053DF00C92B0D /* HomeView.swift in Sources */,
 				9DCAFCF02CE03F5F00ED3389 /* RegisterView.swift in Sources */,
 				9D75524F2CE0540300C92B0D /* HomeViewController.swift in Sources */,
+				9D7552512CE1B46F00C92B0D /* TestFunctions.swift in Sources */,
 				DC2206A82CE01C50004AE463 /* AppDelegate.swift in Sources */,
 				DC2206AA2CE01C50004AE463 /* ViewController.swift in Sources */,
 				9D7552492CE04AF000C92B0D /* LoginView.swift in Sources */,
